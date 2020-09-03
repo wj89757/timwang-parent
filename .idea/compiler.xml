@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="timwang-pattern-core" />
+        <module name="timwang-algorithm-leetcode" />
+        <module name="timwang-concurrent-thread" />
+        <module name="timwang-basic-collection" />
+        <module name="timwang-spring-bean" />
+        <module name="timwang-algorithm-warmup" />
+        <module name="timwang-concurrent-lock" />
+        <module name="timwang-spring-annotation" />
+        <module name="timwang-util-core" />
+        <module name="timwang-basic-reflection" />
+        <module name="timwang-basic-proxy" />
+        <module name="timwang-algorithm-interview" />
+        <module name="timwang-basic-jvm" />
+        <module name="timwang-netty-io" />
+        <module name="timwang-netty-core" />
+        <module name="timwang-spring-mybatis" />
+      </profile>
+      <profile name="Annotation profile for timwang spring parent" enabled="true">
+        <sourceOutputDir name="../timwang-spring-tag/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../timwang-spring-tag/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="timwang-spring-other" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="timwang-algorithm-interview" target="1.8" />
+      <module name="timwang-algorithm-leetcode" target="1.8" />
+      <module name="timwang-algorithm-parent" target="1.8" />
+      <module name="timwang-algorithm-warmup" target="1.8" />
+      <module name="timwang-basic-collection" target="1.8" />
+      <module name="timwang-basic-jvm" target="1.8" />
+      <module name="timwang-basic-parent" target="1.8" />
+      <module name="timwang-basic-proxy" target="1.8" />
+      <module name="timwang-basic-reflection" target="1.8" />
+      <module name="timwang-concurrent-lock" target="1.8" />
+      <module name="timwang-concurrent-parent" target="1.8" />
+      <module name="timwang-concurrent-thread" target="1.8" />
+      <module name="timwang-netty-core" target="1.8" />
+      <module name="timwang-netty-io" target="1.8" />
+      <module name="timwang-netty-parent" target="1.8" />
+      <module name="timwang-parent" target="1.8" />
+      <module name="timwang-pattern-core" target="1.8" />
+      <module name="timwang-pattern-parent" target="1.8" />
+      <module name="timwang-spring-annotation" target="1.8" />
+      <module name="timwang-spring-bean" target="1.8" />
+      <module name="timwang-spring-mybatis" target="1.8" />
+      <module name="timwang-spring-other" target="1.8" />
+      <module name="timwang-spring-parent" target="1.8" />
+      <module name="timwang-util-core" target="1.8" />
+      <module name="timwang-util-parent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

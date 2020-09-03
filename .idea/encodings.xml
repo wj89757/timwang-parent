@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/../timwang-algorithm/timwang-algorithm-interview" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../timwang-algorithm/timwang-algorithm-leetcode" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../timwang-algorithm/timwang-algorithm-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../timwang-algorithm/timwang-algorithm-warmup" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../timwang-concurrent/timwang-concurrent-lock" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../timwang-concurrent/timwang-concurrent-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../timwang-concurrent/timwang-concurrent-thread" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../timwang-java-basic/timwang-basic-collection" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../timwang-java-basic/timwang-basic-jvm" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../timwang-java-basic/timwang-basic-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../timwang-java-basic/timwang-basic-proxy" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../timwang-java-basic/timwang-basic-reflection" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../timwang-netty/timwang-netty-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../timwang-netty/timwang-netty-io" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../timwang-netty/timwang-netty-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../timwang-pattern/timwang-pattern-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../timwang-pattern/timwang-pattern-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../timwang-spring/timwang-spring-annotation" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../timwang-spring/timwang-spring-bean" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../timwang-spring/timwang-spring-mybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../timwang-spring/timwang-spring-other" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../timwang-spring/timwang-spring-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../timwang-util/timwang-util-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../timwang-util/timwang-util-parent" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../timwang-algorithm/timwang-algorithm-interview/timwang-algorithm-interview.iml" filepath="$PROJECT_DIR$/../timwang-algorithm/timwang-algorithm-interview/timwang-algorithm-interview.iml" group="timwang-algorithm-parent and modules" />
+      <module fileurl="file://$PROJECT_DIR$/../timwang-algorithm/timwang-algorithm-leetcode/timwang-algorithm-leetcode.iml" filepath="$PROJECT_DIR$/../timwang-algorithm/timwang-algorithm-leetcode/timwang-algorithm-leetcode.iml" group="timwang-algorithm-parent and modules" />
+      <module fileurl="file://$PROJECT_DIR$/../timwang-algorithm/timwang-algorithm-parent/timwang-algorithm-parent.iml" filepath="$PROJECT_DIR$/../timwang-algorithm/timwang-algorithm-parent/timwang-algorithm-parent.iml" group="timwang-algorithm-parent and modules" />
+      <module fileurl="file://$PROJECT_DIR$/../timwang-algorithm/timwang-algorithm-warmup/timwang-algorithm-warmup.iml" filepath="$PROJECT_DIR$/../timwang-algorithm/timwang-algorithm-warmup/timwang-algorithm-warmup.iml" group="timwang-algorithm-parent and modules" />
+      <module fileurl="file://$PROJECT_DIR$/../timwang-java-basic/timwang-basic-collection/timwang-basic-collection.iml" filepath="$PROJECT_DIR$/../timwang-java-basic/timwang-basic-collection/timwang-basic-collection.iml" group="timwang-basic-parent and modules" />
+      <module fileurl="file://$PROJECT_DIR$/../timwang-java-basic/timwang-basic-jvm/timwang-basic-jvm.iml" filepath="$PROJECT_DIR$/../timwang-java-basic/timwang-basic-jvm/timwang-basic-jvm.iml" group="timwang-basic-parent and modules" />
+      <module fileurl="file://$PROJECT_DIR$/../timwang-java-basic/timwang-basic-parent/timwang-basic-parent.iml" filepath="$PROJECT_DIR$/../timwang-java-basic/timwang-basic-parent/timwang-basic-parent.iml" group="timwang-basic-parent and modules" />
+      <module fileurl="file://$PROJECT_DIR$/../timwang-java-basic/timwang-basic-proxy/timwang-basic-proxy.iml" filepath="$PROJECT_DIR$/../timwang-java-basic/timwang-basic-proxy/timwang-basic-proxy.iml" group="timwang-basic-parent and modules" />
+      <module fileurl="file://$PROJECT_DIR$/../timwang-java-basic/timwang-basic-reflection/timwang-basic-reflection.iml" filepath="$PROJECT_DIR$/../timwang-java-basic/timwang-basic-reflection/timwang-basic-reflection.iml" group="timwang-basic-parent and modules" />
+      <module fileurl="file://$PROJECT_DIR$/../timwang-concurrent/timwang-concurrent-lock/timwang-concurrent-lock.iml" filepath="$PROJECT_DIR$/../timwang-concurrent/timwang-concurrent-lock/timwang-concurrent-lock.iml" group="timwang-concurrent-parent and modules" />
+      <module fileurl="file://$PROJECT_DIR$/../timwang-concurrent/timwang-concurrent-parent/timwang-concurrent-parent.iml" filepath="$PROJECT_DIR$/../timwang-concurrent/timwang-concurrent-parent/timwang-concurrent-parent.iml" group="timwang-concurrent-parent and modules" />
+      <module fileurl="file://$PROJECT_DIR$/../timwang-concurrent/timwang-concurrent-thread/timwang-concurrent-thread.iml" filepath="$PROJECT_DIR$/../timwang-concurrent/timwang-concurrent-thread/timwang-concurrent-thread.iml" group="timwang-concurrent-parent and modules" />
+      <module fileurl="file://$PROJECT_DIR$/../timwang-netty/timwang-netty-core/timwang-netty-core.iml" filepath="$PROJECT_DIR$/../timwang-netty/timwang-netty-core/timwang-netty-core.iml" group="timwang-netty-parent and modules" />
+      <module fileurl="file://$PROJECT_DIR$/../timwang-netty/timwang-netty-io/timwang-netty-io.iml" filepath="$PROJECT_DIR$/../timwang-netty/timwang-netty-io/timwang-netty-io.iml" group="timwang-netty-parent and modules" />
+      <module fileurl="file://$PROJECT_DIR$/../timwang-netty/timwang-netty-parent/timwang-netty-parent.iml" filepath="$PROJECT_DIR$/../timwang-netty/timwang-netty-parent/timwang-netty-parent.iml" group="timwang-netty-parent and modules" />
+      <module fileurl="file://$PROJECT_DIR$/timwang-parent.iml" filepath="$PROJECT_DIR$/timwang-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../timwang-pattern/timwang-pattern-core/timwang-pattern-core.iml" filepath="$PROJECT_DIR$/../timwang-pattern/timwang-pattern-core/timwang-pattern-core.iml" group="timwang-pattern-parent and modules" />
+      <module fileurl="file://$PROJECT_DIR$/../timwang-pattern/timwang-pattern-parent/timwang-pattern-parent.iml" filepath="$PROJECT_DIR$/../timwang-pattern/timwang-pattern-parent/timwang-pattern-parent.iml" group="timwang-pattern-parent and modules" />
+      <module fileurl="file://$PROJECT_DIR$/../timwang-spring/timwang-spring-annotation/timwang-spring-annotation.iml" filepath="$PROJECT_DIR$/../timwang-spring/timwang-spring-annotation/timwang-spring-annotation.iml" group="timwang-spring-parent and modules" />
+      <module fileurl="file://$PROJECT_DIR$/../timwang-spring/timwang-spring-bean/timwang-spring-bean.iml" filepath="$PROJECT_DIR$/../timwang-spring/timwang-spring-bean/timwang-spring-bean.iml" group="timwang-spring-parent and modules" />
+      <module fileurl="file://$PROJECT_DIR$/../timwang-spring/timwang-spring-mybatis/timwang-spring-mybatis.iml" filepath="$PROJECT_DIR$/../timwang-spring/timwang-spring-mybatis/timwang-spring-mybatis.iml" group="timwang-spring-parent and modules" />
+      <module fileurl="file://$PROJECT_DIR$/../timwang-spring/timwang-spring-other/timwang-spring-other.iml" filepath="$PROJECT_DIR$/../timwang-spring/timwang-spring-other/timwang-spring-other.iml" group="timwang-spring-parent and modules" />
+      <module fileurl="file://$PROJECT_DIR$/../timwang-spring/timwang-spring-parent/timwang-spring-parent.iml" filepath="$PROJECT_DIR$/../timwang-spring/timwang-spring-parent/timwang-spring-parent.iml" group="timwang-spring-parent and modules" />
+      <module fileurl="file://$PROJECT_DIR$/../timwang-util/timwang-util-core/timwang-util-core.iml" filepath="$PROJECT_DIR$/../timwang-util/timwang-util-core/timwang-util-core.iml" group="timwang-util-parent and modules" />
+      <module fileurl="file://$PROJECT_DIR$/../timwang-util/timwang-util-parent/timwang-util-parent.iml" filepath="$PROJECT_DIR$/../timwang-util/timwang-util-parent/timwang-util-parent.iml" group="timwang-util-parent and modules" />
+    </modules>
+  </component>
+</project>

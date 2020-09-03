@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../timwang-spring/timwang-spring-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/../timwang-concurrent/timwang-concurrent-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/../timwang-util/timwang-util-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/../timwang-algorithm/timwang-algorithm-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/../timwang-java-basic/timwang-basic-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/../timwang-pattern/timwang-pattern-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/../timwang-netty/timwang-netty-parent/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
+  </component>
+  <component name="ThriftCompiler">
+    <compilers />
+  </component>
+</project>

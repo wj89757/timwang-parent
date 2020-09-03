@@ -6,11 +6,25 @@
 
     <groupId>com.timwang</groupId>
     <artifactId>timwang-parent</artifactId>
-    <version>${revision}</version>
+    <version>0.3.4</version>
 
+    <name>${project.artifactId}</name>
+    <description>The parent project of timwang</description>
+
+    <scm>
+        <url>https://github.com/wj89757/timwang-parent.git</url>
+        <connection>scm:git@github.com/wj89757/timwang-parent.git</connection>
+        <developerConnection>scm:git@github.com/wj89757/timwang-parent.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
 
     <properties>
-        <revision>0.3.4</revision>
+        <commons-lang3.version>3.9</commons-lang3.version>
+        <commons-beanutils.version>1.9.4</commons-beanutils.version>
+        <commons-collections4.version>4.4</commons-collections4.version>
+        <commons-collections.version>3.2.2</commons-collections.version>
+        <commons-fileupload.version>1.4</commons-fileupload.version>
+
         <flink.version>1.7.1</flink.version>
         <java.version>1.8</java.version>
         <scala.binary.version>2.11</scala.binary.version>
@@ -63,10 +77,149 @@
         <commons-lang3.version>3.9</commons-lang3.version>
         <spring-boot-dependencies.version>2.2.7.RELEASE</spring-boot-dependencies.version>
         <org.springframework.version>4.3.16.RELEASE</org.springframework.version>
+        <cglib.version>3.2.5</cglib.version>
         <spring-boot.version>2.3.0.RELEASE</spring-boot.version>
+
+        <timwang.util.version>1.4.35</timwang.util.version>
+
+        <!-- for maven compiler plugin -->
+        <java_source_version>1.8</java_source_version>
+        <java_target_version>1.8</java_target_version>
+        <file_encoding>UTF-8</file_encoding>
+        <project.build.sourceEncoding>${file_encoding}</project.build.sourceEncoding>
+
+        <!-- Maven plugins -->
+        <maven_compiler_version>3.6.0</maven_compiler_version>
+        <maven_deploy_version>2.8.2</maven_deploy_version>
+        <maven_jacoco_version>0.8.4</maven_jacoco_version>
+        <maven_surefire_version>3.0.0-M3</maven_surefire_version>
+        <maven_sonar_version>3.6.0.1398</maven_sonar_version>
+        <maven_flatten_version>1.1.0</maven_flatten_version>
+        <maven_jar_version>3.0.2</maven_jar_version>
+        <maven_source_version>3.0.1</maven_source_version>
+        <maven_javadoc_version>3.0.1</maven_javadoc_version>
+        <maven_jetty_version>9.4.11.v20180605</maven_jetty_version>
+        <maven_checkstyle_version>3.0.0</maven_checkstyle_version>
+        <maven_enforce_version>3.0.0-M2</maven_enforce_version>
+        <apache-rat-plugin.version>0.12</apache-rat-plugin.version>
+        <skip_maven_deploy>false</skip_maven_deploy>
+        <hashids.version>1.0.1</hashids.version>
+        <pinyin4j.version>2.5.0</pinyin4j.version>
     </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>${hutool.util.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-collections4</artifactId>
+                <version>${commons-collections4.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-fileupload</groupId>
+                <artifactId>commons-fileupload</artifactId>
+                <version>${commons-fileupload.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-beanutils</groupId>
+                <artifactId>commons-beanutils</artifactId>
+                <version>${commons-beanutils.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${commons-lang3.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-core</artifactId>
+                <version>${org.springframework.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cglib</groupId>
+                <artifactId>cglib</artifactId>
+                <version>${cglib.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <packaging>pom</packaging>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven_compiler_version}</version>
+                <configuration>
+                    <source>${java_source_version}</source>
+                    <target>${java_target_version}</target>
+                    <encoding>${file_encoding}</encoding>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-deploy-plugin</artifactId>
+                <version>${maven_deploy_version}</version>
+                <configuration>
+                    <skip>${skip_maven_deploy}</skip>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>${maven_surefire_version}</version>
+                <configuration>
+                    <excludes>
+                        <exclude>**dao/*.java</exclude>
+                    </excludes>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>flatten-maven-plugin</artifactId>
+                <version>${maven_flatten_version}</version>
+                <configuration>
+                    <updatePomFile>true</updatePomFile>
+                    <flattenMode>resolveCiFriendliesOnly</flattenMode>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>flatten</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>flatten</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>flatten.clean</id>
+                        <phase>clean</phase>
+                        <goals>
+                            <goal>clean</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>${maven_compiler_version}</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-deploy-plugin</artifactId>
+                    <version>${maven_deploy_version}</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
 </project>
 
